@@ -1,0 +1,46 @@
+void setup()
+{
+  pinMode(9, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(9, HIGH); //S
+  delay(100); 
+  digitalWrite(9, LOW);
+  delay(100); 
+  digitalWrite(9, HIGH); //S
+  delay(100); 
+  digitalWrite(9, LOW);
+  delay(100); 
+  digitalWrite(9, HIGH); //S
+  delay(100); 
+  digitalWrite(9, LOW);
+  delay(200); 
+  
+  digitalWrite(9, HIGH); //o
+  delay(300); 
+  digitalWrite(9, LOW);
+  delay(100); 
+  digitalWrite(9, HIGH); //o
+  delay(300); 
+  digitalWrite(9, LOW);
+  delay(100); 
+  digitalWrite(9, HIGH); //o
+  delay(300); 
+  digitalWrite(9, LOW);
+  delay(200); 
+
+  digitalWrite(9, HIGH); //S
+  delay(100); 
+  digitalWrite(9, LOW);
+  delay(100); 
+  digitalWrite(9, HIGH); //S
+  delay(100); 
+  digitalWrite(9, LOW);
+  delay(100); 
+  digitalWrite(9, HIGH); //S
+  delay(100); 
+  digitalWrite(9, LOW);
+  delay(400);
+}
